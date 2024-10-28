@@ -42,7 +42,7 @@ setInterval(() => {
   newsItems[currentNewsItem].classList.remove('active');
   currentNewsItem = (currentNewsItem + 1) % newsItems.length;
   newsItems[currentNewsItem].classList.add('active');
-}, 5000);
+}, 1000);
 
 // Happy birthday section
 const happyBirthdaySection = document.querySelector('.happy-birthday');
