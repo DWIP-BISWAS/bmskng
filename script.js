@@ -25,6 +25,14 @@ function checkBirthdays() {
   const birthdayList = [
     { name: 'Student 1', birthDate: '2008-10-28' },
     // Add 9 more students
+    { name: 'Student 1', birthDate: '2008-10-28' },
+    { name: 'Studentllll1', birthDate: '2008-10-28' },
+    { name: 'Stt 1', birthDate: '2008-10-28' },
+    { name: 'Studenl)jhsjt 1', birthDate: '2008-10-28' },
+    { name: 'Snt 1', birthDate: '2008-10-28' },
+    { name: 'Studene6uwit 1', birthDate: '2008-10-28' },
+    { name: 'Studedhjdnt 1', birthDate: '2008-10-28' },
+    { name: 'Stude6euwujwjwjnt 1', birthDate: '2008-10-28' },
   ];
 
   const birthdayMessages = birthdayList.filter(student => {
