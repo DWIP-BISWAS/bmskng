@@ -1,0 +1,117 @@
+/* style.css */
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.hero-section button {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* News and Notices */
+.news-and-notices {
+    padding: 40px;
+}
+
+.news-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Principal Message */
+.principal-message {
+    padding: 40px;
+    text-align: center;
+}
+
+.principal-message img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.principal-message h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* School Events */
+.school-events {
+    padding: 40px;
+}
+
+.event {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.event h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Birthday Wishes */
+.birthday-wishes {
+    padding: 40px;
+    text-align: center;
+}
+
+.birthday-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.birthday-message img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
